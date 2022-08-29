@@ -6,7 +6,7 @@ const initalState = {
   favorites: [],
 };
 
-const API = "https://dragon-ball-api.herokuapp.com/api/character";
+const API = "https://rickandmortyapi.com/api/character";
 const favoriteReducer = (state, action) => {
   switch (action.type) {
     case "ADD_TO_FAVORITE":
